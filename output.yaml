@@ -10,7 +10,7 @@ __
 # Cross promotion to /r/18xx
 comment: 'Cross Promotion: In addition to talking about {{match}} here, readers of this post can check out /r/18xx'
 type: submission
-title+body: ['"1846']
+title+body: ['1846', '18OE', '1830', '1889', '1860', '18CZ', '1817', 'Poseidon', '1844', '1854']
 __
 # Cross promotion to /r/AgeOfSteam
 comment: 'Cross Promotion: In addition to talking about {{match}} here, readers of this post can check out /r/AgeOfSteam'
@@ -30,7 +30,7 @@ __
 # Cross promotion to /r/ArkhamHorror
 comment: 'Cross Promotion: In addition to talking about {{match}} here, readers of this post can check out /r/ArkhamHorror'
 type: submission
-title+body: ['"Arkham Horror']
+title+body: ['Arkham Horror', 'Mansions of Madness', 'Eldrich Horror', 'Call of Cthulhu LCG']
 __
 # Cross promotion to /r/AshesGame
 comment: 'Cross Promotion: In addition to talking about {{match}} here, readers of this post can check out /r/AshesGame'
@@ -120,7 +120,7 @@ __
 # Cross promotion to /r/Gloomhaven
 comment: 'Cross Promotion: In addition to talking about {{match}} here, readers of this post can check out /r/Gloomhaven'
 type: submission
-title+body: ['"Gloomhaven']
+title+body: ['Gloomhaven', 'Founders of Gloomhaven']
 __
 # Cross promotion to /r/KingdomDeath
 comment: 'Cross Promotion: In addition to talking about {{match}} here, readers of this post can check out /r/KingdomDeath'
@@ -136,11 +136,6 @@ __
 comment: 'Cross Promotion: In addition to talking about {{match}} here, readers of this post can check out /r/lnoe'
 type: submission
 title+body: ['Last Night on Earth']
-__
-# Cross promotion to /r/monopoly
-comment: 'Cross Promotion: In addition to talking about {{match}} here, readers of this post can check out /r/monopoly'
-type: submission
-title+body: ['']
 __
 # Cross promotion to /r/munchkin
 comment: 'Cross Promotion: In addition to talking about {{match}} here, readers of this post can check out /r/munchkin'
@@ -160,12 +155,7 @@ __
 # Cross promotion to /r/sentinelsmultiverse
 comment: 'Cross Promotion: In addition to talking about {{match}} here, readers of this post can check out /r/sentinelsmultiverse'
 type: submission
-title+body: ['Seentinels of the Multiverse']
-__
-# Cross promotion to /r/Shogi
-comment: 'Cross Promotion: In addition to talking about {{match}} here, readers of this post can check out /r/Shogi'
-type: submission
-title+body: ['']
+title+body: ['Sentinels of the Multiverse']
 __
 # Cross promotion to /r/STAgame
 comment: 'Cross Promotion: In addition to talking about {{match}} here, readers of this post can check out /r/STAgame'

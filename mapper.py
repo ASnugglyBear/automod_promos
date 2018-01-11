@@ -37,15 +37,16 @@ def promotion_info(subreddit_link,keywords):
       }
 
 def promotions_for_game(subreddit_link, game_string):
-  games = ", ".join(["'"+game+"'" for game in game_string.split(",")])
+  if game_string.strip() == "": return []
+  if subreddit_link.strip() == "": return []
+  print (game_string)
+  games = ", ".join(["'"+game.strip()+"'" for game in game_string.strip().split(",")])
   return promotion_info(subreddit_link,games)
 
 
 with open("GamesMappedToSubreddits.csv","r") as csvfile:
-  map_reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+  map_reader = csv.reader(csvfile, delimiter=',', quotechar='"')
   promotions = [promotions_for_game(row[0],row[1]) for row in map_reader]
-  print(template)
-  print(promotions)
   rendered = pystache.Renderer().render(template,{"promotion":promotions})
  # print(rendered)
   open("output.yaml","w+").write(rendered)
